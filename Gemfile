@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem 'jekyll'
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
@@ -13,3 +13,6 @@ end
 gem "dotenv"
 gem "webrick"
 gem "nokogiri"
+
+
+
