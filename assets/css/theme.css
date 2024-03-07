@@ -15,7 +15,7 @@
   }
 
   header {
-    @apply max-w-5xl mx-auto px-6 my-3 flex justify-between items-center text-lg;
+    @apply max-w-5xl mx-auto px-6 my-3 flex items-center text-lg;
   }
 
   footer {
@@ -115,7 +115,7 @@
 }
 
 .mobile-nav {
-  @apply flex-col rounded-xl p-2 bg-slate-100 dark:bg-zinc-800 border-2 border-zinc-900 dark:border-gray-300 sm:hidden absolute top-20 right-6;
+  @apply flex-col rounded-xl p-2 bg-slate-100 dark:bg-zinc-800 border-2 border-zinc-900 dark:border-gray-300 sm:hidden absolute top-20 left-6;
 }
 
 .mobile-nav a {
