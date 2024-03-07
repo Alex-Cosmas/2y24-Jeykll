@@ -1,0 +1,62 @@
+title: Alex Cosmas
+email: alexcosmasotieno@gmail.com
+description: >-
+  I am a Product Designer | Software Developer specializing in solving enterprise challenges through design & code. My primary expertise lies in Product Design, User Research & Experience. When I am designing or ideating concepts, I write code; currently working with Elixir/Phoenix/Liveview.
+baseurl: ""
+url: "https://alexcosmas.com"
+google_analytics: "*******"
+
+collections:
+  projects:
+    permalink: /project/:name
+    output: true
+  achievements:
+    permalink: /achievement/:name
+    output: true
+
+defaults:
+  - scope:
+      path: "_projects/*.md"
+    values:
+      layout: project
+  - scope:
+      path: "_achievements/*.md"
+    values:
+      layout: achievement
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-postcss
+  - jekyll-minifier
+  - jekyll-hostname
+  - jekyll-hashsert
+
+jekyll-minifier:
+  exclude:
+    - "sitemap.xml"
+    - "assets/css/theme.css"
+  uglifier_args:
+    harmony: true
+
+extlinks:
+  attributes: { rel: nofollow noopener noreferrer, target: _blank }
+  rel_include: [ "l.gourav.sh" ]
+  rel_exclude: [ "gourav.sh", "github.com", "genicsblog.com" ]
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - postcss.config.js
+  - tailwind.config.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE

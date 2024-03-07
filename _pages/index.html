@@ -1,0 +1,117 @@
+---
+layout: default
+title: Alex Cosmas | Software Developer
+description: Personal website of Alex Cosmas - Software Developer from India.
+permalink: /
+comments: true/false
+---
+
+<div class="sm:flex sm:flex-row-reverse justify-between items-center">
+ 
+  <div class="sm:mr-16">
+    <h2 class="font-black">
+      Alex Cosmas
+    </h2>
+    <span class="text-slate-500 dark:text-slate-300">Product Designer | Software Developer
+      (Elixir/Phoenix/Liveview)</span>
+    <p class="mt-6 dark:text-gray-400">Hi, I am a Product Designer | Software Developer specializing in 
+      solving enterprise challenges through design &amp; code. My primary expertise lies in Product Design, User Research &amp;
+      Experience.
+      When I am designing or ideating concepts, I write code; currently working with Elixir/Phoenix/Liveview.
+    </p>
+    <div class="mt-4 -ml-2 flex">
+      <a href="https://l.gourav.sh/linkedin" class="underline-none round-button ml-2"
+      aria-label="Visit Gourav's LinkedIn profile">
+      {% include linkedin_svg.html %}
+    </a>
+
+    <a href="https://l.gourav.sh/twitter" class="underline-none round-button mx-2"
+    aria-label="Visit Gourav's Twitter profile">
+    {% include twitter_svg.html %}
+  </a>
+      
+     
+    </div>
+  </div>
+</div>
+
+<div class="mt-14">
+  <h2 class="font-black">
+    Career Summary
+  </h2>
+  <p class="mt-2 text-slate-500 dark:text-slate-300">Bits about my work experiece presence</p>
+  <div class="mt-6 ">
+
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p>UX/UI Developer to Product Lead at <a href="https://www.simpleformations.ke/">Simple Formations Ke</a> <span class="ml-4 tex">2021 -
+          Present</span>. </p>
+    </div>
+
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p>UX/UI Developer at <a href="https://www.simpleformations.ke/">Sokoplace Group</a> <span class="ml-4 tex">Nov 2020 — Sept
+          2021</span>. </p>
+    </div>
+
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p> Lead Web Developer at <a href="https://www.simpleformations.ke/">Protec Group</a> <span class="ml-4 tex">Feb 2017 — Feb
+          2020</span>. </p>
+    </div>
+
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p>Project Manager at <a href="https://www.simpleformations.ke/">Seka Marketing</a> <span class="ml-4 tex">Mar 2016 — Oct 2016</span>.
+      </p>
+    </div>
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p>Account Manager at <a href="https://www.simpleformations.ke/">Capital Colors</a> <span class="ml-4 tex">Aug 2014 — Dec 2015</span>. </p>
+    </div>
+    <div class="insight">
+      {% include right_arrow.html %}
+      <p>Operations Manager at <a href="https://www.simpleformations.ke/">Chandigarh Media </a> <span class="ml-4 tex">Jan 2010 — May 2014</span>. </p>
+    </div>
+
+
+
+
+  </div>
+</div>
+
+<div class="mt-16">
+  <h2 class="font-black">
+    Achievements
+  </h2>
+  <p class="mt-2 text-slate-500 dark:text-slate-300">Some of my wins in the past</p>
+
+  <div class="mt-6 gap-4 grid grid-flow-row">
+   
+    {% assign achievements = 'software-engineering-with-elixir,legal-entity-solution' | split: ',' %}
+
+    {% for str in achievements %}
+    {% for achievement in site.data.achievements %}
+    {% if achievement[0] contains str %}
+    {% include achievement.html %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </div>
+
+  
+</div>
+
+
+
+<h2 class="mt-16 font-black">
+  Contact
+</h2>
+<p class="mt-2 text-slate-500 dark:text-slate-300">Ways you could reach out to me.</p>
+
+<div class="mt-6 text-lg">
+  <p>You can reach out to me directly through my  <a href="mailto:alexcosmasotieno@gmail.com">email
+    </a> for any business related queries/opportunities </p>
+  
+</div>

@@ -1,0 +1,10 @@
+software-engineering-with-elixir:
+  name: "Software Engineering with Elixir"
+  excerpt: "Elx Pro offers a step by step course that takes you from beginner to expert level helping you master the essential skills required covering from Testing, CI/CD with releases, advanced Ecto, Phoenix, LiveView techniques"
+  date: 2023-11-10 
+
+legal-entity-solution:
+  name: "Legal Entity Management Solution"
+  excerpt: "Designed an end to end enterprise entity management solution that helps simplify every day corporate goverance management and compliance processes"
+  date: 2022-09-16
+
