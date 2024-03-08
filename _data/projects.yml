@@ -1,9 +1,9 @@
 genics-blog:
-  name: Genics Blog
-  excerpt: "An open source blogging platform for software developers to share their technical knowledge and gain reach. Read by 1k+ people per month."
-  stack: ["Ruby", "Python", "Shell", "JavaScript"]
+  name: Rent Cars
+  excerpt: "Demo Phoneix project"
+  stack: ["Elixir", "Phoenix", "JavaScript"]
 
 jekyllex:
   name: JekyllEx
-  excerpt: "A android app to control a jekyll powered blogs from an Android device. Uses GitHub API, WIP for native Jekyll binaries."
+  excerpt: ""
   stack: ["Kotlin", "C++", "NDK"]

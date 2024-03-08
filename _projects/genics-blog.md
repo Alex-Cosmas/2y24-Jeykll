@@ -3,10 +3,10 @@ hasThumbnail: true
 
 visit: 
   - anchorText: "Visit project website"
-    link: "https://genicsblog.com"
+    link: "https://rent-cars-elx.gigalixirapp.com"
 
   - anchorText: "View on GitHub"
-    link: "https://github.com/genicsblog"
+    link: "https://github.com/Alex-Cosmas/Rent-Cars"
 ---
 
 ## Background
