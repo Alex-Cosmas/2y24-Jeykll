@@ -1,9 +1,9 @@
 genics-blog:
   name: Rent Cars
-  excerpt: "Demo Phoneix project"
-  stack: ["Elixir", "Phoenix", "JavaScript"]
+  excerpt: "SAAS Application for Renting cars"
+  stack: ["Elixir", "Phoenix", "Gigalixir", "Kubernetes"]
 
 jekyllex:
-  name: JekyllEx
-  excerpt: ""
-  stack: ["Kotlin", "C++", "NDK"]
+  name: Kiota 
+  excerpt: "Referal/Billing Application for Real Estate Industry"
+  stack: ["Python", "Django", "Postgres", "Docker"]
