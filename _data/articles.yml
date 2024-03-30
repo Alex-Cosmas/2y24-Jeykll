@@ -1,5 +1,13 @@
-hello-world-in-all-the-languages-i-know-43df:
-  date: 2020-11-04
-  name: "Lifecycle of a Startup - Confused, Organized, Innovative"
-  excerpt: "In this article, I showcase how to write Hello World programs in the language I have worked with."
-  baseurl: "https://dev.to/gouravkhunger"
+understand-protocols-in-elixir:
+  date: 2024-03-30
+  name: "Understanding Protocols in Elixir"
+  excerpt: "Protocols in Elixir are a way to define a set of functions that a module must implement. They are similar to interfaces in other programming languages"
+  baseurl: "https://open.substack.com/pub/alexcosmasotieno/p/understanding-protocols-in-elixir?r=3e70qd&utm_campaign=post&utm_medium=web"
+
+guards-in-elixir:
+  date: 2024-03-30
+  name: "Guards in Elixir"
+  excerpt: "Guards in Elixir are used within function definitions to impose constraints on the input parameters."
+  baseurl: "https://open.substack.com/pub/alexcosmasotieno/p/guards-in-elixir?r=3e70qd&utm_campaign=post&utm_medium=web"
+
+  
