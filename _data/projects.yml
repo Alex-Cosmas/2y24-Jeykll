@@ -5,5 +5,5 @@ genics-blog:
 
 jekyllex:
   name: Kiota 
-  excerpt: "Referal/Billing Application for Real Estate Industry"
+  excerpt: "Rental Property Management System"
   stack: ["Python", "Django", "Postgres", "Docker"]
