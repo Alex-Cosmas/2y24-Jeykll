@@ -6,4 +6,4 @@ genics-blog:
 jekyllex:
   name: Kiota 
   excerpt: "Rental Property Management System"
-  stack: ["Python", "Django", "Postgres", "Docker"]
+  stack: ["Vue", "Typescript", "Supabase", "Docker"]
