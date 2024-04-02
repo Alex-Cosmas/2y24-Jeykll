@@ -84,12 +84,16 @@
     </script>
     {% endif %}
   </head>
-  <body class="h-full">
+  <body >
+
     {% include header.html %}
 
-    <main>{{ content | extlinks }}</main>
+
+    <main class="">{{ content | extlinks }}</main>
+
 
     {% include footer.html %}
+
 
     {% if page.video_embed == true %}
     <div id="modal">

@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-slate-50 dark:bg-zinc-900 dark:text-white;
+    @apply bg-slate-50 dark:bg-zinc-900 dark:text-white min-h-screen ;
     font-family: "Sen", sans-serif;
   }
 
@@ -19,11 +19,11 @@
   }
 
   footer {
-    @apply max-w-5xl mx-auto px-6 mt-16 mb-6 flex flex-col-reverse sm:flex-row justify-between items-center;
+    @apply sticky top-[100vh] max-w-5xl mx-auto mt-16 px-6 mb-6 flex flex-col-reverse sm:flex-row justify-between items-center;
   }
   
   main {
-    @apply mx-6 mt-32 max-w-4xl lg:mx-auto;
+    @apply mx-6 mt-32 max-w-5xl mx-auto lg:mx-auto px-6 ;
   }
 
   footer a, main a:not(.underline-none, .link-button) {
