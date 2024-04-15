@@ -4,7 +4,7 @@ description: >-
   I am a Product Designer | Software Developer specializing in solving enterprise challenges through design & code. My primary expertise lies in Product Design, User Research & Experience. When I am designing or ideating concepts, I write code; currently working with Elixir/Phoenix/Liveview.
 baseurl: ""
 url: "https://alexcosmas.com"
-google_analytics: "*******"
+google_analytics: "G-YVQ4DSTKCF"
 
 collections:
   projects:
